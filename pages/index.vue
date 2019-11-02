@@ -19,17 +19,20 @@
         >
           GitHub
         </a>
+        <AuthProvider/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import AuthProvider from '~/components/Authentication.vue'
 import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    AuthProvider
   }
 }
 </script>
